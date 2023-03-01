@@ -31,10 +31,10 @@ export default defineComponent({
   setup() {
     const selectedKeys = ref(['1'])
     const openKeys = ref(['sub1'])
-    const handleClick = (e) => {
+    const handleClick = (e: any) => {
       console.log('click', e)
     }
-    const titleClick = (e) => {
+    const titleClick = (e: any) => {
       console.log('titleClick', e)
     }
     watch(
